@@ -1,0 +1,23 @@
+p {
+  padding-top: 30px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.filler1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.balance {
+  height: 100px;
+  margin-left: 35%;
+  max-width: 30%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 24px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Business Bank</h1>
+        <img src="img/business-cat.png">
+        <h3>We like your money</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Register a new account:</h3>
+          <form>
+            <label>Name:</label>
+            <input id="name" class="form-control"></input>
+            <label>Initial Deposit:</label>
+            <input id="startBalance" class="form-control"></input>
+            <button id="newAccount">Create Account</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h3>Deposit or Withdrawl:</h3>
+          <form>
+            <label>Deposit Amount:</label>
+            <input id="deposit" class="form-control"></input>
+            <label>Withdrawl Amount:</label>
+            <input id="withdraw" class="form-control"></input>
+            <button id="exchange">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="filler1">
+        <h2>Total Balance</h2>
+        <div class="balance">
+          <p>$<span id="total"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
