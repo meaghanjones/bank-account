@@ -1,4 +1,5 @@
 var account;
+var startBalance;
 var withdraw;
 var deposit;
 
@@ -16,7 +17,6 @@ $(document).ready(function() {
     debugger;
     event.preventDefault();
     var name = $("#name").val();
-    var startBalance;
     if (isNaN(parseInt($("#startBalance").val()))) {
       startBalance = 0;
     } else {
