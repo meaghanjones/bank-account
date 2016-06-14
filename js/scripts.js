@@ -16,12 +16,11 @@ $(document).ready(function() {
     debugger;
     event.preventDefault();
     var name = $("#name").val();
-    var startBalance = function () {
-      if (isNaN(parseInt($("#startBalance").val()))) {
-        return 0;
-      } else {
-        return parseInt($("#startBalance").val());
-      }
+    var startBalance;
+    if (isNaN(parseInt($("#startBalance").val()))) {
+      startBalance = 0;
+    } else {
+      startBalance = parseInt($("#startBalance").val());
     }
     account = new User(name, startBalance);
     $("#name").val('');
